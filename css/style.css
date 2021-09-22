@@ -1,0 +1,31 @@
+
+#clear{
+	width: 258px;
+
+}
+.formstyle{
+	width: 258px;
+    height: 455px;
+    margin: auto;
+    border: 2px solid black;
+    background: #525659;
+    border-radius: 10px 10px 10px 10px;
+}
+input{
+	min-width: 11vh;
+    min-height: 35px;
+    background-color: blue;
+    color: white;
+    border-radius: 34px;
+}
+
+.who{
+	width: 250px;
+	min-height: 10vh;
+}
+.xyz{
+        padding-top: 30px;
+}
+.go{
+    padding-bottom: 30px;
+}

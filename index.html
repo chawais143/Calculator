@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Calculator</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body >
+      <div class="formstyle">
+        <form name="forms" class="xyz">
+          <input type="text" name="answer" class="who"> <br><br>
+          <hr>
+          <div class="abc">
+          <input class="animate pulse" type="button" value=" 1 " onClick="forms.answer.value += '1' ">
+          <input type="button" value=" 2 " onClick="forms.answer.value += '2' ">
+          <input type="button" value=" 3 " onClick="forms.answer.value += '3' ">
+             <br><br>
+          <input type="button" value=" 4 " onClick="forms.answer.value += '4' ">
+          <input type="button" value=" 5 " onClick="forms.answer.value += '5' ">
+          <input type="button" value=" 6 " onClick="forms.answer.value += '6' ">
+             <br><br>
+          <input type="button" value=" 7 " onClick="forms.answer.value += '7' ">
+          <input type="button" value=" 8 " onClick="forms.answer.value += '8' ">
+          <input type="button" value=" 9 " onClick="forms.answer.value += '9' ">
+             <br><br>
+          <input type="button" value=" + " onClick="forms.answer.value += '+' ">
+          <input type="button" value=" - " onClick="forms.answer.value += '-' ">
+          <input type="button" value=" * " onClick="forms.answer.value += '*' ">
+             <br><br>
+          <input type="button" value=" / " onClick="forms.answer.value += '/' ">
+          <input type="button" value=" 0 " onClick="forms.answer.value += '0' ">
+          <input type="button" value=" = " onClick="forms.answer.value = eval(forms.answer.value) "style="margin-bottom: -15px;">
+        </div>
+             <br><br>
+        <div class="go">
+          <input style="margin-bottom: 35px;" type="button" value="Clear All" onClick="forms.answer.value = '' " id="clear">
+        </div>
+        </form>
+      </div>
+</body>
+</html>
